@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+</style>
+<body>
+
+<h2 style="text-align:center">Slideshow Gallery</h2>
+
+<div class="container">
+
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img style="width: 100%;"
+    src="https://blogger.googleusercontent.com/img/a/AVvXsEj6vlv-Csc5tUYWWu5Biw9vH7OjfX-r5J62A6mNbvf344OSWj_w33XMv5Yy7f_W-DdDEpjMhPEM907XwdfbYDauOJg8mHXRtLSmiKO9qW7AOoh3uq6J2QHbiGhBUq2FNr0Hf99oe5xvglXFxSJJ5jcjPi5CAZqLyK9m1t-77Qa6lPM7gBQOBjZ8IfZ-=s3264"
+    alt="">
+<p class="caption" style="font-size: 18px; text-align: justify">Awesome Designs Of Almirah Made With Best Look For Your
+    House.</p>
+
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img style="width: 100%;"
+    src="https://blogger.googleusercontent.com/img/a/AVvXsEj7O-bC6m18Eo4JLqiYoLjASEhvozBiAZceF2L_CERVvURQwyrKxykNVTXi8IGGCn08b4jlg3DSTifIp-NywLwDeazWpMO2w12Rs1xYFMVc_-YDDJm2n-j3ecl5_4QpJ57kr6JmdWq3ywCW8aQhwmSO3glMZ1ROM-HVsaaS5cIb4bxwhJcWFaJMnDRF=s3264"
+    alt="">
+<p style="font-size: 16px; text-align: justify">Latest Design Wall Fit Almirah With Slide Doors Which
+    Gives An Awesome Look. </p>
+
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img style="width: 100%;"
+    src="https://blogger.googleusercontent.com/img/a/AVvXsEjz0ugMdi8RO6R6EAdt4w9Mr1xnQTQrjKQMDxjOvMrME2MsCjDeq1OcufKirRPSIkLKkYqXKIF2FxvtpLRFsf_N5R4NJUZfuoU8YfGNuJwmuDc-6Mg-8I-VLZmZhlhqzq6YN8f_2GooddOCqU30dxyuITkr0jl89Wi1RfizfDYH9MdWVbVW-g_89sEG=s3264"
+    alt="">
+<p style="font-size: 16px; text-align: justify;">Stylish Table And Awesome Craft Work With Rich Color Of
+    Mica And Best Finishing.</p>
+
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img style="width: 100%;"
+    src="https://blogger.googleusercontent.com/img/a/AVvXsEj-izhSK9FIno-vkqP3RWzVmKPaO7uR0QLcemNxYRwmQHT3FjssBMc8SCFSuh2B2xwAnNWdN-B4WSjQA9WbueI9eBSej3omLO03z5TMmt2Efvk_9R02Ej4fJ9pq0Tc9NigF6CMzev0Y1byb3utnzeymz-r_l0I7sku7IHqmEu6mPQWUf-RTMeyP9XT0=s3264"
+    alt="">
+<p style="font-size: 16px; text-align: justify;">Change Your Visor To Change The Look Morden Tech Wooden
+    Visor .</p>
+
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img style="width: 100%;"
+    src="https://blogger.googleusercontent.com/img/a/AVvXsEi4Xwt8DPwlNn9kKachP_0_PJGdI2JydGXsAlXR82UMLjcuJEgykKhxlIOfLs5-h7Eega9XdGnQHaHNJk7Qdxi4v8cmjgqLocVQ7sliXRqAUdH-z2tgO1AbAt8GJAzD3STbW37HiaR_ev-j6I7wiO3w2neBZVZY0YVLRUAluRk0QHA6jOvW9duVJ3_X=s3264"
+    alt="">
+<p style="font-size: 16px; text-align: justify;">Stylish Door Frame With Best Design Of Windows And
+    Detail Work On It House Look You Always Want.</p>
+
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img style="width: 100%;"
+    src="https://blogger.googleusercontent.com/img/a/AVvXsEic80dufvZ8sM3cGgrWboRqP-9s5Fx6p0bfKXOS_5g__FYJas9opeL250LOpwsVsuQwav369cRK0zauMEPk4VpmJyGzHlTEbKy7hYVerQ-h2M6t5uog32TDa5WMGQKkTK7rVvWxffvnH-Jfw-kWjRMoQh4j3hDV7SM6pIiLf5f-2vAjnhvYbZOQps6r=s3264"
+    alt="">
+<p style="font-size: 16px; text-align: justify;">Adjusting Visor With Morden Work To Change The Look Of Your Bedroom Or Hall. </p>
+
+  </div>
+
+  <div class="mySlides">
+      <div class="numbertext">7 / 7</div>
+      <img style="width: 100%;"
+      src="https://blogger.googleusercontent.com/img/a/AVvXsEhzwNtpT545F4CDcR6x3ufMg5Bdu3PVJ0QPirHXErLJu-ejVzJtZw-Gkn2Y6FEx4x4UCj5rmRuH_6jIPWNwogo8f20mcLRkDaxiyCko5juS5h3OWKkH3Cyl4nbK5dLnBvLx-B5V6UvY7p8gdFjvInn3YxPfHsEuEph7Uuf0nu1jJX1skqpUMPkeCpDf=s3264"
+      alt="">
+  <p style="font-size: 16px; text-align: justify;">Stylish Visor With Best Quality Of Wood And Craft Work On It.</p>
+ 
+    </div>
+
+  
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="img_snow_wide.jpg" style="width:100%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEj6vlv-Csc5tUYWWu5Biw9vH7OjfX-r5J62A6mNbvf344OSWj_w33XMv5Yy7f_W-DdDEpjMhPEM907XwdfbYDauOJg8mHXRtLSmiKO9qW7AOoh3uq6J2QHbiGhBUq2FNr0Hf99oe5xvglXFxSJJ5jcjPi5CAZqLyK9m1t-77Qa6lPM7gBQOBjZ8IfZ-=s3264" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEj7O-bC6m18Eo4JLqiYoLjASEhvozBiAZceF2L_CERVvURQwyrKxykNVTXi8IGGCn08b4jlg3DSTifIp-NywLwDeazWpMO2w12Rs1xYFMVc_-YDDJm2n-j3ecl5_4QpJ57kr6JmdWq3ywCW8aQhwmSO3glMZ1ROM-HVsaaS5cIb4bxwhJcWFaJMnDRF=s3264" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEjz0ugMdi8RO6R6EAdt4w9Mr1xnQTQrjKQMDxjOvMrME2MsCjDeq1OcufKirRPSIkLKkYqXKIF2FxvtpLRFsf_N5R4NJUZfuoU8YfGNuJwmuDc-6Mg-8I-VLZmZhlhqzq6YN8f_2GooddOCqU30dxyuITkr0jl89Wi1RfizfDYH9MdWVbVW-g_89sEG=s3264" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEj-izhSK9FIno-vkqP3RWzVmKPaO7uR0QLcemNxYRwmQHT3FjssBMc8SCFSuh2B2xwAnNWdN-B4WSjQA9WbueI9eBSej3omLO03z5TMmt2Efvk_9R02Ej4fJ9pq0Tc9NigF6CMzev0Y1byb3utnzeymz-r_l0I7sku7IHqmEu6mPQWUf-RTMeyP9XT0=s3264" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEi4Xwt8DPwlNn9kKachP_0_PJGdI2JydGXsAlXR82UMLjcuJEgykKhxlIOfLs5-h7Eega9XdGnQHaHNJk7Qdxi4v8cmjgqLocVQ7sliXRqAUdH-z2tgO1AbAt8GJAzD3STbW37HiaR_ev-j6I7wiO3w2neBZVZY0YVLRUAluRk0QHA6jOvW9duVJ3_X=s3264" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEic80dufvZ8sM3cGgrWboRqP-9s5Fx6p0bfKXOS_5g__FYJas9opeL250LOpwsVsuQwav369cRK0zauMEPk4VpmJyGzHlTEbKy7hYVerQ-h2M6t5uog32TDa5WMGQKkTK7rVvWxffvnH-Jfw-kWjRMoQh4j3hDV7SM6pIiLf5f-2vAjnhvYbZOQps6r=s3264" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEhzwNtpT545F4CDcR6x3ufMg5Bdu3PVJ0QPirHXErLJu-ejVzJtZw-Gkn2Y6FEx4x4UCj5rmRuH_6jIPWNwogo8f20mcLRkDaxiyCko5juS5h3OWKkH3Cyl4nbK5dLnBvLx-B5V6UvY7p8gdFjvInn3YxPfHsEuEph7Uuf0nu1jJX1skqpUMPkeCpDf=s3264" style="width:100%" onclick="currentSlide(7)" alt="Stylish Visor With Best Quality Of Wood And Craft Work On It.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img_snow.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img_snow.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img_snow.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+    </div>
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+    
+</body>
+</html>
